@@ -3,7 +3,8 @@ class App extends React.Component{
 		return(
 			<div className="notificationsFrame">
 				<div className="panel">
-					{/* content will go here when rendered */}
+					<Header />
+					<Content />
 				</div>
 			</div>		
 		)
